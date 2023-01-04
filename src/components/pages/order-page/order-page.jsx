@@ -10,7 +10,7 @@ import "swiper/swiper.scss";
 import { ProductSwiper } from "./styled";
 import { ProductCard } from "/src/components/ui/product-card/product-card";
 import { SwiperSlide } from "swiper/react";
-import SwiperCore, { Pagination, Mousewheel, Scrollbar } from "swiper/core";
+import SwiperCore, { Pagination, Mousewheel, Scrollbar } from "swiper";
 import "swiper/swiper-bundle.min.css";
 SwiperCore.use([Mousewheel, Pagination, Scrollbar]);
 
