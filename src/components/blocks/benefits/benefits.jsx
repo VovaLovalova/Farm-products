@@ -17,7 +17,7 @@ export default function Benefits({ benefitsList }) {
               </li>
             ))}
           </BenefitsList>
-          <Button link="/buy">Купить</Button>
+          <Button link="/buy">Купить продукты</Button>
         </>
       ) : null}
     </BenefitsWrapper>

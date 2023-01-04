@@ -10,7 +10,7 @@ const buttons = [
   },
   {
     to: AppRoute.BUY,
-    button: <Button link={AppRoute.BUY}>Купить билет</Button>
+    button: <Button link={AppRoute.BUY}>Купить продукты</Button>
   }
 ];
 
